@@ -1,0 +1,193 @@
+# Agro Forte e Sustentável 🌱🚜
+
+Este repositório contém o código de uma página web institucional focada no **Agronegócio Forte e Sustentável**. O objetivo é demonstrar como a tecnologia e o manejo consciente andam de mãos dadas para garantir a segurança alimentar e a preservação do meio ambiente.
+
+## 🚀 Tecnologias Utilizadas
+* HTML5 (Estruturação)
+* CSS3 (Estilização responsiva e moderna)
+* Banco de Imagens Unsplash (Imagens otimizadas para web)
+
+## 🌾 Pilares do Projeto
+1. **Tecnologia Verde:** Otimização de recursos através de agricultura de precisão.
+2. **Preservação:** Rotação de culturas, plantio direto e conservação de recursos hídricos.
+3. **Energia Limpa:** Integração de fontes renováveis (solar e biomassa) no campo.
+
+## 🖥️ Como Visualizar o Projeto
+Para testar localmente:
+1. Faça o clone deste repositório.
+2. Abra o arquivo `index.html` em qualquer navegador de internet.
+
+---
+*Cultivando a inovação, protegendo o futuro.*
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte e Sustentável</title>
+    <style>
+        /* Reset de Estilos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f4;
+            color: #2b2d42;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(135deg, #134021 0%, #2d6a4f 100%);
+            color: #ffffff;
+            padding: 3.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.6rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #d8f3dc;
+            font-weight: 300;
+        }
+
+        /* Conteúdo Principal */
+        .container {
+            max-width: 1140px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .main-card {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        /* Banner de Imagem */
+        .agro-banner {
+            width: 100%;
+            max-height: 480px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #1b4332;
+            margin-bottom: 1.2rem;
+            font-size: 2rem;
+            border-left: 5px solid #52b788;
+            padding-left: 12px;
+        }
+
+        .intro-text {
+            font-size: 1.15rem;
+            color: #4a5568;
+            margin-bottom: 2.5rem;
+        }
+
+        /* Grid de Pilares */
+        .pillars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.8rem;
+        }
+
+        .pillar-card {
+            background: #f7fafc;
+            padding: 2rem;
+            border-radius: 8px;
+            border-top: 4px solid #52b788;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .pillar-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+        }
+
+        .pillar-card h3 {
+            color: #1b4332;
+            font-size: 1.4rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .pillar-card p {
+            color: #718096;
+            font-size: 1rem;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 2.5rem 1rem;
+            background-color: #134021;
+            color: #d8f3dc;
+            margin-top: 5rem;
+            font-size: 0.95rem;
+        }
+
+        /* Responsividade Básica */
+        @media (max-width: 768px) {
+            header h1 { font-size: 2rem; }
+            header p { font-size: 1rem; }
+            .main-card { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agro Forte e Sustentável</h1>
+        <p>Unindo produtividade, inovação e o cuidado com a nossa terra</p>
+    </header>
+
+    <div class="container">
+        <main class="main-card">
+            
+            <img class="agro-banner" src="https://images.unsplash.com/photo-1625246333195-78d9c38ad451?auto=format&fit=crop&w=1200&q=80" alt="Plantação agrícola sustentável com tecnologia de irrigação moderna">
+            
+            <h2>O Futuro Baseado na Sustentabilidade</h2>
+            <p class="intro-text">
+                O agronegócio moderno desempenha um papel vital no desenvolvimento econômico global. Ser um "Agro Forte" significa produzir com eficiência, garantir a segurança alimentar e impulsionar a tecnologia no campo, enquanto ser "Sustentável" assegura que as próximas gerações herdem um solo fértil, águas limpas e ecossistemas preservados.
+            </p>
+            
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <h3>🌱 Tecnologia Verde</h3>
+                    <p>Uso de inteligência artificial, sensores de solo e drones para aplicar recursos de forma exata, reduzindo drasticamente o desperdício.</p>
+                </div>
+                <div class="pillar-card">
+                    <h3>💧 Manejo Consciente</h3>
+                    <p>Sistemas eficientes de irrigação por gotejamento, captação de água da chuva e rotação de culturas para manter a saúde da terra.</p>
+                </div>
+                <div class="pillar-card">
+                    <h3>☀️ Energia Renovável</h3>
+                    <p>Substituição de fontes fósseis por usinas solares na propriedade e aproveitamento de resíduos orgânicos para geração de biogás.</p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Repositório AgroSustentável. Desenvolvido para o GitHub.</p>
+    </footer>
+
+</body>
+</html>
